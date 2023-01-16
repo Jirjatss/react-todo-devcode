@@ -72,9 +72,9 @@ function TitleBar({ item, afterChange, addActivity, setSortValue, sortValue }) {
     useEffect(() => {
         setPath(currentPath)
         if (path) {
-            document.title = "Detail | React To Do List"
+            document.title = "Detail"
         } else {
-            document.title = "Dashboard | React To Do List"
+            document.title = "Activity"
         }
 
 
